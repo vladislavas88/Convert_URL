@@ -107,5 +107,5 @@ sub squid_reload() {
 
 &copy_in_url_to_archive and say "Copy to file in_url_to_archive successfully";
 &convert_url            and say "URL conversion completed successfully";
-#&squid_reload and say "Squid reloaded successfully";
+&squid_reload and say "Squid reloaded successfully";
 
